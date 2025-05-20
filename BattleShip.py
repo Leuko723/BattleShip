@@ -134,10 +134,6 @@ print()
 while count_ai != 0 or count_user != 0:
     
     #Add while loop here so it keeps trying till its right
-    try:
-        check_x = int(input("Enter the x coordinate you would like to attack: "))
-    except ValueError:
-        check_x = int(input("Enter the x coordinate you would like to attack: "))
         
         
     while True:
@@ -150,6 +146,7 @@ while count_ai != 0 or count_user != 0:
                     continue
                 else: 
                     break
+            break
         except ValueError:
             print("Please enter an integer.")
         
@@ -164,6 +161,7 @@ while count_ai != 0 or count_user != 0:
                     continue
                 else: 
                     break
+            break
         except ValueError:
             print("Please enter an integer.")
             
